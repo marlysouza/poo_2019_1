@@ -1,0 +1,63 @@
+class Carro:
+  def __init__ (self):#o metodo init iniciar o carro, self é o carro q vou trabalahar
+    self.gas = 0
+    self.pas = 0
+    self.km = 0 
+    self.lim_pas = 2
+    self.lim_gas = 10
+
+  def entrar_carro(self):
+        if self.pas < self.lim_pas:
+            self.pas += 1
+        else:
+            print("fail: limite de pessoas atingido")
+  
+  def tirar_gente_do_carro(self):
+        if self.pas > 0:
+            self.pas -= 1
+        else:
+            print("fail: nao ha ninguem no carro")
+  
+  def abastecer(self, qtd):
+        self.gas += qtd
+        if self.gas > self.lim_gas:
+            self.gas = self.lim_gas
+  
+  def dirigir(self, distancia_per):
+        if self.pas == 0:
+            print("fail: nao ha ninguem no carro")
+            return
+        distan_preci = distancia_per / 10
+        if self.gas >= distan_preci:
+            self.km += distancia_per
+            self.gas -= distan_preci
+        else:
+            print("fail: gasolina insuficiente")
+
+  def __str__ (self):
+    return "pass: " + str(self.pas) + ", gas: " + \
+     str(self.gas) + ", km: " + str(self.km)
+
+car = Carro ()
+usuario = ""
+print("Digite show, in, out, end, fuel, drive")
+while(usuario != "end"):
+    usuario = input()
+    if usuario == "end":
+        break
+    elif usuario == "show":
+        print(car)
+    elif usuario == "in":
+        car.entrar_carro()
+    elif usuario == "out":
+        car.tirar_gente_do_carro()
+    elif usuario == "fuel":
+        print("Digite a quantidade de fuel")
+        qtd = int(input())#a entrada de dados é inteiro
+        car.abastecer(qtd)
+    elif usuario == "drive":
+        print("Digite a distancia")
+        distan = int(input())
+        car.dirigir(distan)
+    else:
+        print("fail: comando invalido")
