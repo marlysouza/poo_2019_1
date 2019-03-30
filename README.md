@@ -10,7 +10,7 @@ Meu irmão me ajudou na lógica e me auxiliou quando eu não conseguia encontrar
 
 - O que aprendeu e sabe fazer?
 
-Aprendi que cada objeto tem ações e que podemos orientá-los nos comandos. Nessa atividade aprendi a criar classe e atribuir seus atributos e seus métodos. 
+Aprendi que cada objeto tem ações e que podemos orientá-los nos comandos. Nessa atividade aprendi a criar classes e atribuir seus atributos e seus métodos. 
 
 - O que tem dificuldade ainda?
 
