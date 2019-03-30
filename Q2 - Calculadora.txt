@@ -1,0 +1,66 @@
+
+class Calculadora:
+  def __init__ (self):
+    self.bateria = 0
+    self.limiteBateria = 5
+    
+  def Recarregar (self, carga):
+    self.bateria += carga
+    if self.bateria > self.limiteBateria:
+      self.bateria = self.limiteBateria
+
+  def Soma(self, a, b):
+    if self.bateria > 0:
+      print (a+b)
+      self.bateria -= 1
+    else:
+      print("bateria insuficiente")
+
+  def Multi(self, a, b):
+    if self.bateria > 0:
+      print (a*b)
+      self.bateria -= 1
+    else:
+      print("bateria insuficiente")
+
+  def Divisao (self, a, b):
+    if (self.bateria > 0) and (b !=0):
+        print (a/b)
+        self.bateria -= 1
+    elif b == 0:
+      self.bateria -= 1
+      print ("fail: divisao por zero")
+    else:
+        print("fail: bateria insuficiente")
+    
+  def __str__ (self):
+    return "bateria: " + str (self.bateria) 
+
+    
+calcu = Calculadora()
+
+usuario = ""
+print("Digite show, sum, multi, div, charge, end")
+while(usuario != "end"):
+    usuario = input()
+    if usuario == "end":
+        break
+    elif usuario == "show":
+        print("Bateria =", + calcu.bateria)
+    elif usuario == "charge":
+        c = int(input())
+        calcu.Recarregar(c)
+    elif usuario == "sum":
+        a = int(input())
+        b = int(input())
+        calcu.Soma(a,b)
+    elif usuario == "multi":
+        a = int(input())
+        b = int(input())
+        calcu.Multi(a,b)
+    elif usuario == "div":
+        a = int(input())
+        b = int(input())
+        calcu.Divisao(a,b)
+    else:
+      print ("comando invalido")
