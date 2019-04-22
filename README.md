@@ -1,4 +1,4 @@
-01 - Carro em python
+<h1> 01 - Carro em python </h1>
 
 - O que você fez?
 
@@ -20,7 +20,7 @@ Eu tenho muita dificuldade na lógica.
 
 Levei uns dois dias.
 
-02 - Calculadora em python
+<h1> 02 - Calculadora em python </h1>
 
 - O que você fez?
 
@@ -40,5 +40,38 @@ Ainda tenho muita dificuldade na lógica por isso levo muito tempo para a constr
 - Quanto tempo levou pra fazer a atividade?
 
 Levei uns três dias.
+
+<h1> 03 - Calculadora em Java </h1>
+
+- O que você fez?
+
+Fiz a calculadora inteira em java. 
+
+- Com quem e como você fez?
+
+Fiz sozinha, eu já havia começado a ler a apostila, 
+mas senti uma grande necessidade de procurar outra fonte para estudar a linguagem, 
+então encontrei uns videos no youtube, onde eu pude compreender como funciona a linguagem, como tenho 
+bastante dificuldade na lógica, eu escolhi fazer a calculadora em java, pois eu já sabia a lógica. Também assisti a primeira aula 
+que o professor introduziu a linguagem, que serviu de grande suporte para a compreensão para o final da questão.
+
+
+- O que aprendeu e sabe fazer?
+
+Reforcei sobre a criação de atributos, aprendi que sempre devemos colocar de qual tipo é a váriavel, a criar os métodos
+de forma organizada e por partes. Aprendi a usar o this, toString, equals, &&, passar uma string para inteiro, fazer um comentário, a usar as chaves.
+Serviu como uma ótima introdução a linguagem.
+
+
+- O que tem dificuldade ainda?
+
+Com o Controller e o scanner. E entender melhor o split, sobre a posição do usuário, 
+acredito que ainda seja uma dificuldade que trago de fup, tenho que praticar bastante.
+
+
+- Quanto tempo levou pra fazer a atividade?
+
+Levei três dias.
+
 
 
