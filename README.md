@@ -73,5 +73,31 @@ acredito que ainda seja uma dificuldade que trago de fup, tenho que praticar bas
 
 Levei três dias.
 
+<h1> 04 - Pet em Java </h1>
+
+- O que você fez?
+
+Fiz o pet inteiro em java. 
+
+- Com quem e como você fez?
+
+Fiz sozinha, mas acompanhando a video aula do professor em sala. E pesquisando algumas dúvidas na apostila.
+
+- O que aprendeu e sabe fazer?
+
+Aprendi para que serve e quando usar os gets e os sets. Finalmente consegui entender a interação com o usuário, era o que me deixava confusa como mencionada nas questões anteriores. 
+
+- O que tem dificuldade ainda?
+
+A lógica das questões, sempre demoro muito para entender e por isso levo muito tempo para a conclusão.
+
+- Quanto tempo levou pra fazer a atividade?
+
+Levei quatro dias.
+
+
+
+
+
 
 
